@@ -1,0 +1,102 @@
+
+body{
+    font-family: 'Merriweather', serif;
+}
+.container{
+    margin: 100px auto;  
+    max-width: 1025px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin-top: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #d1caca;
+    padding: 10px;
+    border-radius: 4px;
+}
+.search img{
+    width: 32px;
+    height: 32px;
+}
+.search input{
+    border: none;
+    margin-left: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.menu1 ul{
+    list-style: none;
+    display: flex;
+    gap:10px;
+}
+.menu1 ul li{
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+.new{
+    background: #1c6ed3;
+    border: none;
+    border-radius: 10%;
+}
+.container1 {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap:5px
+}
+.figure{
+    background-color: #f3f5f8;
+    padding: 24px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.figure img{
+    max-height: 100%;
+    max-width: 100%;
+    height: 97x;
+    width: 97px;
+    border-radius: 50%;
+}
+.most {
+    border: 4px solid rgb(241, 210, 210);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+
+}
+.figure .all .hobbies{
+    gap:6px
+}
+.all{
+    margin-left: 16px;
+    padding: 10px;
+}
+.all .item2 p{
+    border: 1px solid #b6b4b4;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 7px;
+    font-size: 12px;
+    color: #4a6bd4;
+    margin-bottom: 5px;
+   }
+.all .item p{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.all .item1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 540;
+    padding-bottom: 20px;
+}
